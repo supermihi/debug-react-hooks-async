@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build:dev": "cross-env NODE_ENV=development webpack --progress --color",
+    "build:prod": "cross-env NODE_ENV=production webpack --progress --color"
+  },
+  "author": "nobody",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "cross-env": "^5.2.0",
+    "webpack": "4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "16.8.6",
+    "react-hooks-async": "^3.1.0"
+  }
+}
